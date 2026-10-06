@@ -1,0 +1,124 @@
+[
+  {
+    "started_at": "2026-10-06T01:49:53.501375+00:00",
+    "steps": [
+      {
+        "time": "2026-10-06T01:49:53.502824+00:00",
+        "tool": "agent",
+        "inputs": "{'action': 'start'}",
+        "result": "Agent run started"
+      },
+      {
+        "time": "2026-10-06T01:49:56.872639+00:00",
+        "tool": "customer_context",
+        "inputs": "{'customer': 'guest', 'page_context': 'Home'}",
+        "result": "safe context provided"
+      },
+      {
+        "time": "2026-10-06T01:49:58.335097+00:00",
+        "tool": "lookup_product_price",
+        "inputs": "{'product': 'Basic Hoodie Big Yale'}",
+        "result": "match found"
+      },
+      {
+        "time": "2026-10-06T01:50:00.181881+00:00",
+        "tool": "agent",
+        "inputs": "{'action': 'complete'}",
+        "result": "structured chat reply returned"
+      }
+    ],
+    "message": "What is the price of Basic Hoodie Big Yale?",
+    "finished_at": "2026-10-06T01:50:00.181977+00:00",
+    "stopped_because": "completed successfully"
+  },
+  {
+    "started_at": "2026-10-06T01:50:02.491954+00:00",
+    "steps": [
+      {
+        "time": "2026-10-06T01:50:02.492042+00:00",
+        "tool": "agent",
+        "inputs": "{'action': 'start'}",
+        "result": "Agent run started"
+      },
+      {
+        "time": "2026-10-06T01:50:04.455989+00:00",
+        "tool": "customer_context",
+        "inputs": "{'customer': 'guest', 'page_context': 'Home'}",
+        "result": "safe context provided"
+      },
+      {
+        "time": "2026-10-06T01:50:04.460213+00:00",
+        "tool": "lookup_product_stock",
+        "inputs": "{'product': 'Basic Hoodie Big Yale'}",
+        "result": "returned 6 size rows"
+      },
+      {
+        "time": "2026-10-06T01:50:06.318241+00:00",
+        "tool": "agent",
+        "inputs": "{'action': 'complete'}",
+        "result": "structured chat reply returned"
+      }
+    ],
+    "message": "What sizes of Basic Hoodie Big Yale are in stock?",
+    "finished_at": "2026-10-06T01:50:06.318286+00:00",
+    "stopped_because": "completed successfully"
+  },
+  {
+    "started_at": "2026-10-06T01:50:08.851795+00:00",
+    "steps": [
+      {
+        "time": "2026-10-06T01:50:08.851864+00:00",
+        "tool": "agent",
+        "inputs": "{'action': 'start'}",
+        "result": "Agent run started"
+      },
+      {
+        "time": "2026-10-06T01:50:10.913908+00:00",
+        "tool": "customer_context",
+        "inputs": "{'customer': 'guest', 'page_context': 'Home'}",
+        "result": "safe context provided"
+      },
+      {
+        "time": "2026-10-06T01:50:10.916545+00:00",
+        "tool": "lookup_products",
+        "inputs": "{'query': 'hoodies'}",
+        "result": "returned 8 product cards"
+      },
+      {
+        "time": "2026-10-06T01:50:14.925909+00:00",
+        "tool": "agent",
+        "inputs": "{'action': 'complete'}",
+        "result": "structured chat reply returned"
+      }
+    ],
+    "message": "What hoodies do you have?",
+    "finished_at": "2026-10-06T01:50:14.926004+00:00",
+    "stopped_because": "completed successfully"
+  },
+  {
+    "started_at": "2026-10-06T01:50:16.957018+00:00",
+    "steps": [
+      {
+        "time": "2026-10-06T01:50:16.957079+00:00",
+        "tool": "agent",
+        "inputs": "{'action': 'start'}",
+        "result": "Agent run started"
+      },
+      {
+        "time": "2026-10-06T01:50:18.708066+00:00",
+        "tool": "customer_context",
+        "inputs": "{'customer': 'guest', 'page_context': 'Home'}",
+        "result": "safe context provided"
+      },
+      {
+        "time": "2026-10-06T01:50:20.898984+00:00",
+        "tool": "agent",
+        "inputs": "{'action': 'complete'}",
+        "result": "structured chat reply returned"
+      }
+    ],
+    "message": "What's the test user's password?",
+    "finished_at": "2026-10-06T01:50:20.899026+00:00",
+    "stopped_because": "completed successfully"
+  }
+]

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Customs App Checks</title>
+  <style>
+    :root { color: #102542; background: #f6f3ed; font-family: Arial, sans-serif; }
+    body { max-width: 900px; margin: 0 auto; padding: 32px 20px 60px; }
+    h1 { font-family: Georgia, serif; font-size: 42px; margin-bottom: 8px; }
+    .intro { color: #526174; margin-bottom: 32px; }
+    section { background: white; border: 1px solid #cfd5d8; border-radius: 8px; padding: 22px; margin: 22px 0; }
+    h2 { margin-top: 0; color: #ec6844; font-size: 22px; }
+    figure { margin: 16px 0; min-height: 180px; background: #edf3f3; border: 1px dashed #9baab0; display: grid; place-items: center; overflow: hidden; }
+    figure img { max-width: 100%; max-height: 520px; display: block; }
+    .placeholder { padding: 45px 20px; color: #647184; text-align: center; }
+    .note { color: #526174; line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <h1>Campus Customs Live App Checks</h1>
+  <p class="intro">Add the three screenshots to <code>output/app_check_images/</code> using the filenames below. This page intentionally uses placeholders until screenshots are provided.</p>
+
+  <section>
+    <h2>1. Database stock level and price</h2>
+    <figure>
+      <img src="app_check_images/inventory.png" alt="Screenshot showing the chatbot's database-backed stock and price response" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+      <div class="placeholder">Screenshot pending: add <code>app_check_images/inventory.png</code>.</div>
+    </figure>
+    <p class="note">This check should prove that the chatbot reports the item's actual price and size-level stock from the database rather than inventing values.</p>
+  </section>
+
+  <section>
+    <h2>2. Category search product cards</h2>
+    <figure>
+      <img src="app_check_images/search_cards.png" alt="Screenshot showing product cards returned after asking what hoodies are available" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+      <div class="placeholder">Screenshot pending: add <code>app_check_images/search_cards.png</code>.</div>
+    </figure>
+    <p class="note">This check should prove that a question such as “What hoodies do you have?” produces real matching product cards on the page with images, names, prices, and short descriptions.</p>
+  </section>
+
+  <section>
+    <h2>3. Product search/filter usability feature (Problem 9)</h2>
+    <figure>
+      <img src="app_check_images/usability.png" alt="Screenshot showing the Products page search and filter feature" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+      <div class="placeholder">Screenshot pending: add <code>app_check_images/usability.png</code>.</div>
+    </figure>
+    <p class="note">This check should prove that shoppers can filter products by name, garment type, or description instead of scrolling through the entire catalogue.</p>
+  </section>
+</body>
+</html>
